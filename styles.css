@@ -1,0 +1,103 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #35434c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+header img {
+  width: 20%;
+  height: 40%;
+  border-radius: 50%;
+}
+
+h1, h2 {
+  padding: 0.5rem;
+}
+
+main {
+  margin: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+a {
+  color: #35434c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0077cc;
+  text-decoration: underline;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+section p {
+  text-align: justify;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1rem;
+}
+
+footer {
+  background-color: #35434c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.icon {
+  width: 5%;
+  height: auto;
+  margin: 0 0.5rem;
+}
+
+.icon:hover {
+  opacity: 0.7;
+}
+
+.caption {
+  font-weight: bold;
+  text-align: center;
+}
+
+.About {
+  background-color: #e9ecef;
+  padding: 1rem;
+  border-radius: 5px;
+}
